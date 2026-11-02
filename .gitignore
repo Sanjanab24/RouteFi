@@ -1,0 +1,22 @@
+# Documents (report, PPT, guide, demo script, audit) stay local - the repo holds code + README only
+docs/
+blockchain/AUDIT.md
+
+# Dependencies and build output
+node_modules/
+dist/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/coverage/
+blockchain/coverage.json
+blockchain/typechain-types/
+
+# Generated on every deploy (local contract address + ABI)
+frontend/src/contracts/
+
+# Local tooling / environment
+.claude/
+.env
+*.log
+.DS_Store
+Thumbs.db
